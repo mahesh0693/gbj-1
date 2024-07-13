@@ -1,0 +1,194 @@
+/* General Styles */
+body {
+  margin: 0;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  text-align: left;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Header Styles */
+/* header {
+  background-color: #d7f5dc;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+header .logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+}
+
+header ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+header li {
+  display: inline;
+} */
+
+header .register {
+  background-color: #28a745;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+/* main.css */
+header {
+  width: Fixed (1, 440px) px;
+  height: Fixed (80px) px;
+  padding: 5px 100px 5px 100px;
+  gap: 0px;
+  justify: space-between;
+  opacity: 0px;
+  background-color: #d7f5dc;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between; /* Space between logo and navigation links */
+  align-items: center;
+}
+
+.logo {
+  width: Hug (176px) px;
+  height: Hug (50px) px;
+  padding: 10px 0px 0px 0px;
+  gap: 10px;
+  opacity: 0px;
+  font-family: Poppins;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 30px;
+  text-align: left;
+}
+
+ul {
+  list-style-type: none; /* Remove bullet points */
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 30px; /* Space between navigation links */
+}
+
+li {
+  width: Hug (118px) px;
+  height: Hug (44px) px;
+  padding: 10px 0px 0px 0px;
+  gap: 10px;
+  opacity: 0px;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  text-align: left;
+  color: #000000;
+}
+
+a {
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: #0056b3; /* Darker blue on hover */
+}
+
+.register {
+  color: #28a745; /* Green text color for Register link */
+}
+
+.register:hover {
+  color: #218838; /* Darker green on hover */
+}
+
+/* Hero Section Styles */
+.top-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.hero {
+  display: block;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px 0px;
+  background-color: #d7f5dc;
+}
+
+.hero-content {
+  width: Hug (550px) px;
+  height: Hug (366px) px;
+  padding: 5px 100px 5px 100px;
+  top: 237px;
+  left: 100px;
+  gap: 37px;
+  opacity: 0px;
+}
+
+.hero h1 {
+  font-family: Poppins;
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 65px;
+  text-align: left;
+}
+.hero p {
+  font-family: Poppins;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 27.32px;
+  text-align: left;
+}
+
+.hero button {
+  background-color: #20b15a;
+  width: Hug (175px) px;
+  height: Hug (70px) px;
+  padding: 20px 30px 20px 30px;
+  gap: 10px;
+  border-radius: 16px;
+  opacity: 0px;
+}
+
+.hero-image img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Partners Section Styles */
+.partners {
+  background-color: #fff;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.partner-logos {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.partner-logo {
+  width: 100px; /* Set the desired width */
+  height: auto; /* Maintain aspect ratio */
+  margin: 0 20px;
+}
+
+/* Other existing styles */

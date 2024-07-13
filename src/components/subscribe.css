@@ -1,0 +1,50 @@
+.subscribe {
+  text-align: center;
+  padding: 50px 20px;
+}
+
+.subscribe h2 {
+  color: #27ae60; /* Adjust color as needed */
+  margin-bottom: 20px;
+}
+
+.subscribe h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.subscribe p {
+  margin-bottom: 30px;
+  font-size: 14px;
+  color: #555;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+input[type="email"] {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  width: 300px;
+  box-sizing: border-box;
+}
+
+button[type="submit"] {
+  padding: 10px 20px;
+  font-size: 16px;
+  color: #fff;
+  background-color: #f96332;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button[type="submit"]:hover {
+  background-color: #e6531d;
+}

@@ -1,0 +1,83 @@
+.testimonials {
+  text-align: center;
+  padding: 67px 105px 143px 105px;
+}
+
+.testimonials h2 {
+  width: 139px;
+  height: 30px;
+  gap: 0px;
+  opacity: 0px;
+  font-family: Poppins;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 30px;
+  text-align: left;
+  color: #20b15a;
+}
+
+.testimonials h3 {
+  width: 495px;
+  height: 90px;
+  gap: 0px;
+  opacity: 0px;
+  font-family: Poppins;
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 45px;
+  text-align: left;
+  color: #000000;
+}
+
+.testimonial-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.testimonial {
+  max-width: 600px;
+  margin: 0 20px;
+  padding: 20px;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.testimonial-info {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.testimonial-info img {
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  margin-right: 20px;
+}
+
+.testimonial h4 {
+  margin: 0;
+}
+
+.testimonial p {
+  font-size: 14px;
+  color: #555;
+}
+
+button.prev,
+button.next {
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+button.prev:hover,
+button.next:hover {
+  background: #f0f0f0;
+}

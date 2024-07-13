@@ -1,0 +1,59 @@
+/* src/components/MetricsSection.css */
+
+.metrics-section {
+  /* width: Fixed (1, 440px) px;
+  height: Fixed (420px) px;
+  top: 1542px; */
+  gap: 0px;
+  opacity: 0px;
+  background-color: #fafffb;
+}
+
+.metrics-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.metric-card {
+  /* background: #fff;
+  padding: 20px;
+  margin: 10px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 200px;
+  text-align: center;
+  transition: transform 0.3s; */
+  width: Hug (240px) px;
+  height: Hug (259px) px;
+  padding: 40px 0px 0px 0px;
+  gap: 15px;
+  border: 0px 1px 0px 0px;
+  opacity: 0px;
+}
+
+/* .metric-card:hover {
+  transform: translateY(-10px);
+}
+
+.metric-icon {
+  font-size: 2em;
+  margin-bottom: 10px;
+} */
+
+.metric-card h4 {
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  text-align: center;
+}
+
+.metric-card p {
+  font-family: Poppins;
+  font-size: 40px;
+  font-weight: 800;
+  line-height: 60px;
+  text-align: left;
+  color: #20b15a;
+}
